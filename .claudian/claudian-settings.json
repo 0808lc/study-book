@@ -1,0 +1,192 @@
+{
+  "userName": "",
+  "permissionMode": "yolo",
+  "model": "haiku",
+  "effortLevel": "high",
+  "serviceTier": "default",
+  "enableAutoTitleGeneration": true,
+  "titleGenerationLocale": "",
+  "titleGenerationModel": "",
+  "excludedTags": [],
+  "mediaFolder": "",
+  "systemPrompt": "",
+  "sharedEnvironmentVariables": "",
+  "envSnippets": [],
+  "customContextLimits": {},
+  "keyboardNavigation": {
+    "scrollUpKey": "w",
+    "scrollDownKey": "s",
+    "focusInputKey": "i"
+  },
+  "requireCommandOrControlEnterToSend": false,
+  "locale": "en",
+  "providerConfigs": {
+    "claude": {
+      "enabled": true,
+      "safeMode": "auto",
+      "cliPath": "",
+      "cliPathsByHost": {},
+      "loadUserSettings": true,
+      "enableChrome": false,
+      "visibleModels": [
+        "opus",
+        "claude-fable-5-1",
+        "sonnet",
+        "haiku"
+      ],
+      "modelAliases": {},
+      "environmentVariables": "export ANTHROPIC_AUTH_TOKEN=sk-TUcVNdJvCJ1AhMVemYyB6zuVhwOg9enFThNODYoBVh8\nexport ANTHROPIC_BASE_URL=https://aicode-proxy.devops.mthreads.com\nexport CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC=1\n\nexport CLAUDE_CODE_MAX_CONTEXT_TOKENS=128000\nexport CLAUDE_CODE_DISABLE_1M_CONTEXT=1\nexport CLAUDE_CODE_AUTO_COMPACT_WINDOW=128000\nexport CLAUDE_AUTOCOMPACT_PCT_OVERRIDE=80\nexport CLAUDE_CODE_ATTRIBUTION_HEADER=0",
+      "environmentHash": "runtime-input:v1:299bc6734a0cda4e366db18973b30791158fe3b040a0671a45768d39e4d117e2",
+      "selectedModels": [
+        {
+          "value": "opus",
+          "label": "Opus",
+          "description": "Opus 5.5 · Best for everyday, complex tasks · $4/$20 per Mtok",
+          "resolvedModel": "claude-opus-5-5",
+          "reasoningMetadataResolved": true,
+          "supportedEffortLevels": [
+            "low",
+            "medium",
+            "high",
+            "xhigh",
+            "max"
+          ]
+        },
+        {
+          "value": "claude-fable-5-1",
+          "label": "Fable",
+          "description": "Fable 5.1 · Most capable for your hardest and longest-running tasks · $10/$50 per Mtok",
+          "resolvedModel": "claude-fable-5-1",
+          "reasoningMetadataResolved": true,
+          "supportedEffortLevels": [
+            "low",
+            "medium",
+            "high",
+            "xhigh",
+            "max"
+          ]
+        },
+        {
+          "value": "sonnet",
+          "label": "Sonnet",
+          "description": "Sonnet 5 · Efficient for routine tasks · $2/$10 per Mtok",
+          "resolvedModel": "claude-sonnet-5",
+          "reasoningMetadataResolved": true,
+          "supportedEffortLevels": [
+            "low",
+            "medium",
+            "high",
+            "xhigh",
+            "max"
+          ]
+        },
+        {
+          "value": "haiku",
+          "label": "Haiku",
+          "description": "Haiku 4.5 · Fastest for quick answers · $1/$5 per Mtok",
+          "resolvedModel": "claude-haiku-4-5-20251001",
+          "reasoningMetadataResolved": true,
+          "supportedEffortLevels": []
+        }
+      ],
+      "outputStyle": null,
+      "promptSuggestions": false,
+      "discoveredOutputStyles": []
+    },
+    "codex": {
+      "enabled": false,
+      "safeMode": "workspace-write",
+      "cliPath": "",
+      "cliPathsByHost": {},
+      "modelAliases": {},
+      "visibleModels": [],
+      "enableUltraEffort": false,
+      "responseStyle": "pragmatic",
+      "reasoningSummary": "detailed",
+      "environmentVariables": "",
+      "environmentHash": "",
+      "installationMethodsByHost": {},
+      "wslDistroOverridesByHost": {},
+      "selectedModels": [],
+      "responseVerbosity": "default"
+    },
+    "grok": {
+      "cliPath": "",
+      "cliPathsByHost": {},
+      "enabled": false,
+      "environmentHash": "",
+      "environmentVariables": "",
+      "modelAliases": {},
+      "preferredReasoningByModel": {},
+      "visibleModels": [],
+      "selectedModelsByHost": {}
+    },
+    "opencode": {
+      "cliPath": "",
+      "cliPathsByHost": {},
+      "enabled": false,
+      "environmentHash": "",
+      "environmentVariables": "",
+      "modelAliases": {},
+      "preferredThinkingByModel": {},
+      "thinkingOptionsByModel": {},
+      "visibleModels": [],
+      "selectedModels": []
+    },
+    "pi": {
+      "cliPath": "",
+      "cliPathsByHost": {},
+      "enabled": false,
+      "environmentHash": "",
+      "environmentVariables": "",
+      "modelAliases": {},
+      "preferredThinkingByModel": {},
+      "visibleModels": [],
+      "selectedModels": []
+    },
+    "deepseek": {
+      "enabled": false,
+      "codeMode": false,
+      "presetPlugins": "",
+      "cliPath": "",
+      "cliPathsByHost": {},
+      "environmentVariables": "",
+      "environmentHash": "",
+      "visibleModels": [],
+      "modelAliases": {},
+      "preferredReasoningByModel": {},
+      "selectedModels": []
+    }
+  },
+  "settingsProvider": "claude",
+  "lastSelectedChatModel": null,
+  "savedProviderModel": {
+    "claude": "haiku"
+  },
+  "savedProviderEffort": {
+    "claude": "high"
+  },
+  "savedProviderServiceTier": {},
+  "savedProviderPermissionMode": {
+    "claude": "yolo"
+  },
+  "pendingProviderSessionInvalidations": {},
+  "enableAutoScroll": true,
+  "showMessageTimestamps": false,
+  "deferMathRenderingDuringStreaming": true,
+  "expandFileEditsByDefault": false,
+  "chatViewPlacement": "right-sidebar",
+  "enableZenMode": true,
+  "zenModePosition": null,
+  "enableDualPane": true,
+  "dualPaneSide": "right",
+  "restoreTabsOnStartup": true,
+  "skillsSynced": false,
+  "sessionManagerOrganization": "list",
+  "sessionManagerSort": "last-updated",
+  "sessionAutoArchiveAfter": "off",
+  "pinnedLinkedContentPaths": [],
+  "hiddenCommands": [],
+  "thinkingBudget": "off",
+  "savedProviderThinkingBudget": {}
+}
