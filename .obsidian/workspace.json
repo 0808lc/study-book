@@ -227,9 +227,19 @@
               "icon": "bot",
               "title": "Claudian"
             }
+          },
+          {
+            "id": "61db157025de4f61",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
@@ -250,12 +260,12 @@
   },
   "active": "fd97853b697a8859",
   "lastOpenFiles": [
+    "Shader模块学习/Valu 模块学习.md",
     "UVM验证学习.md",
     "images/Pasted image 20261012153706.png",
     "images",
     "GPU基础知识.md",
     "工作记录.md",
-    "Shader模块学习/Valu 模块学习.md",
     "Shader模块学习/images/Pasted image 20261010161241.png",
     "Shader模块学习/images/Pasted image 20261010161218.png",
     "Shader模块学习/images/Pasted image 20261010111430.png",
