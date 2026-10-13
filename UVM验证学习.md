@@ -16,3 +16,7 @@
 ## 1、module load project/hs_gpu_test
 如下图所示，module show 对应的模块，可以查看配置文件的路径，也可以查看对应的配置
 ![[Pasted image 20261012153706.png]]
+
+## 2、环境中的run_sim是在哪里配置的呢？
+文件中设置了环境变量，当你使用run_sim时候，会自动到该路径下查找该文件，注意，可以使软链接。
+![[Pasted image 20261012175201.png]]

@@ -38,14 +38,14 @@
             "id": "fd97853b697a8859",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "Shader模块学习/Valu 模块学习.md",
-                "mode": "source",
-                "source": false
+                "aFile": "工作记录.md",
+                "bFile": "工作记录.md",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "Valu 模块学习"
+              "icon": "diff",
+              "title": "Diff: 工作记录  (Working Tree)"
             }
           }
         ],
@@ -188,7 +188,6 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Shader模块学习/Valu 模块学习.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -260,12 +259,13 @@
   },
   "active": "fd97853b697a8859",
   "lastOpenFiles": [
-    "Shader模块学习/Valu 模块学习.md",
+    "images/Pasted image 20261012175201.png",
+    "工作记录.md",
+    "GPU基础知识.md",
     "UVM验证学习.md",
+    "Shader模块学习/Valu 模块学习.md",
     "images/Pasted image 20261012153706.png",
     "images",
-    "GPU基础知识.md",
-    "工作记录.md",
     "Shader模块学习/images/Pasted image 20261010161241.png",
     "Shader模块学习/images/Pasted image 20261010161218.png",
     "Shader模块学习/images/Pasted image 20261010111430.png",
@@ -275,7 +275,6 @@
     "Shader模块学习/images/Pasted image 20261008142402.png",
     "Shader模块学习/images/Pasted image 20261008140131.png",
     "Shader模块学习/images/Pasted image 20261008133510.png",
-    "Shader模块学习/images/Pasted image 20261008102727.png",
     "Shader模块学习/Valu 模块学习.md.tmp.1505433.3aa025310c61",
     "Shader模块学习/Valu 模块学习.md.tmp.1505433.1f2069a8915a",
     "Shader模块学习/Valu 模块学习.md.tmp.1505433.9dc7489aeb46",
