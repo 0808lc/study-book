@@ -126,3 +126,8 @@ mon_ictrl_vac_instr主要接受发送的指令，之后将其转化为cmodel的�
 答：因为这是指令队列，transaction只生成单个指令，不对整个队列进行处理
 ## 2、cmodel如何返回数据给验证平台呢？
 答：首先，cmodel调用dpi函数的时候，函数的参数是inout类型，这是参数引用类型，sv侧修改，c侧也能看见。同时，cmodel调用函数时，也会将数据封装成为事务，通过tlm接口传给scoreboard
+## 3、valu中一个VR寄存器是如何映射到32个instance？
+valu首先根据指令的逻辑地址，从VR中读出对应的物理地址，之后根据instance_active_mask去VR中读取数据，根据instance_active_mask，可以将32个instance划分为四个dblock，分别对应valu_vr0的四个接口，每个接口数据位宽256bit，供8个instance使用
+
+![[Pasted image 20261019112825.png]]
+![[Pasted image 20261019113955.png]]
