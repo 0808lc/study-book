@@ -2,7 +2,7 @@
   "userName": "",
   "permissionMode": "yolo",
   "model": "haiku",
-  "effortLevel": "high",
+  "effortLevel": "low",
   "serviceTier": "default",
   "enableAutoTitleGeneration": true,
   "titleGenerationLocale": "",
@@ -91,7 +91,13 @@
       ],
       "outputStyle": null,
       "promptSuggestions": false,
-      "discoveredOutputStyles": []
+      "discoveredOutputStyles": [
+        "default",
+        "Proactive",
+        "Concise",
+        "Explanatory",
+        "Learning"
+      ]
     },
     "codex": {
       "enabled": false,
@@ -164,7 +170,7 @@
     "claude": "haiku"
   },
   "savedProviderEffort": {
-    "claude": "high"
+    "claude": "low"
   },
   "savedProviderServiceTier": {},
   "savedProviderPermissionMode": {

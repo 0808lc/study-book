@@ -38,11 +38,11 @@ rtg中约束 atomic 8/128 是不支持的嘛？
 ![[Pasted image 20261020173426.png]]
 ![[Pasted image 20261020173039.png]]
 
-| NSR0_LMA_LOCAL_ATOMIC128_REQ                                                                                                                                                                                                   | TODO |
+| NSR0_LMA_LOCAL_ATOMIC128_REQ                                                                                                                                                                                                   | PASS |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---- |
-| NSR0_LMA_LOCAL_ATOMIC8_REQ                                                                                                                                                                                                     | TODO |
-| NSR1_LMA_LOCAL_ATOMIC128_REQ                                                                                                                                                                                                   | TODO |
-| NSR1_LMA_LOCAL_ATOMIC8_REQ                                                                                                                                                                                                     | TODO |
+| NSR0_LMA_LOCAL_ATOMIC8_REQ                                                                                                                                                                                                     | PASS |
+| NSR1_LMA_LOCAL_ATOMIC128_REQ                                                                                                                                                                                                   | PASS |
+| NSR1_LMA_LOCAL_ATOMIC8_REQ                                                                                                                                                                                                     | PASS |
 | LMA_VTX_ACTIVE<br>LMA_LMS_VTX_RD_DATA_NUM<br>LMA_LMS_VTX_WR_DATA_NUM<br>NSR0_LMA_VTX_RD_REQ<br>NSR0_LMA_VTX_REQ<br>NSR0_LMA_VTX_WR_REQ<br>NSR1_LMA_VTX_RD_REQ<br>NSR1_LMA_VTX_REQ<br>NSR1_LMA_VTX_WR_REQ<br>VCC_LMA_ACTIVE<br> | 图形相关 |
 
 ## LSU
@@ -69,13 +69,13 @@ rtg中约束 atomic 8/128 是不支持的嘛？
 ![[Pasted image 20261021093842.png]]
 ![[Pasted image 20261021095012.png]]
 
-| MP_TME_GATHER4_INST<br>                                                                                                                                                                                          | TODO |     |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---- | --- |
-| MP_TME_GATHERN_INST<br>                                                                                                                                                                                          |      |     |
-| MP_TME_LD_BURST0_PORT0<br>MP_TME_LD_BURST0_PORT1<br>MP_TME_LD_BURST1_PORT0<br>MP_TME_LD_BURST1_PORT1<br>MP_TME_LD_BURST2_PORT0<br>MP_TME_LD_BURST2_PORT1<br>MP_TME_LD_BURST3_PORT0<br>MP_TME_LD_BURST3_PORT1<br> |      |     |
-| MP_TME_LD_CMD_PORT0<br>MP_TME_LD_CMD_PORT1<br>MP_TME_LD_INST<br>                                                                                                                                                 |      |     |
-| MP_TME_RTN_DATA_32B_PORT0<br>MP_TME_RTN_DATA_32B_PORT1<br>MP_TME_RTN_DATA_64B_PORT0<br>MP_TME_RTN_DATA_64B_PORT1<br>                                                                                             |      |     |
-| MP_TME_ST_BURST0_PORT1<br>MP_TME_ST_BURST1_PORT1<br>MP_TME_ST_BURST2_PORT1                                                                                                                                       |      |     |
+| MP_TME_GATHER4_INST<br>                                                                                                                                                                                                    | PASS |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---- |
+| MP_TME_GATHERN_INST<br>                                                                                                                                                                                                    | PASS |
+| MP_TME_LD_BURST0_PORT0<br>MP_TME_LD_BURST0_PORT1<br>MP_TME_LD_BURST1_PORT0<br>MP_TME_LD_BURST1_PORT1<br>MP_TME_LD_BURST2_PORT0<br>MP_TME_LD_BURST2_PORT1<br>MP_TME_LD_BURST3_PORT0 PASS<br>MP_TME_LD_BURST3_PORT1 PASS<br> |      |
+| MP_TME_LD_CMD_PORT0<br>MP_TME_LD_CMD_PORT1<br>MP_TME_LD_INST<br>                                                                                                                                                           | PASS |
+| MP_TME_RTN_DATA_32B_PORT0<br>MP_TME_RTN_DATA_32B_PORT1<br>MP_TME_RTN_DATA_64B_PORT0 PASS<br>MP_TME_RTN_DATA_64B_PORT1 PASS<br>                                                                                             |      |
+| MP_TME_ST_BURST0_PORT1<br>MP_TME_ST_BURST1_PORT1<br>MP_TME_ST_BURST2_PORT1                                                                                                                                                 |      |
 
 ## valu
 
