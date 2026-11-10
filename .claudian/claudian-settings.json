@@ -2,7 +2,7 @@
   "userName": "",
   "permissionMode": "yolo",
   "model": "haiku",
-  "effortLevel": "low",
+  "effortLevel": "max",
   "serviceTier": "default",
   "enableAutoTitleGeneration": true,
   "titleGenerationLocale": "",
@@ -170,7 +170,7 @@
     "claude": "haiku"
   },
   "savedProviderEffort": {
-    "claude": "low"
+    "claude": "max"
   },
   "savedProviderServiceTier": {},
   "savedProviderPermissionMode": {
