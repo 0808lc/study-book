@@ -1,4 +1,5 @@
 {
   "cssTheme": "Obsidian Nord",
-  "nativeMenus": false
+  "nativeMenus": false,
+  "showRibbon": true
 }
